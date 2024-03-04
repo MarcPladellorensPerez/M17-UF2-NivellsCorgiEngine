@@ -2381,7 +2381,7 @@ MonoBehaviour:
   OnStay:
     m_PersistentCalls:
       m_Calls: []
-  LevelName: Corgi3D 1
+  LevelName: Nivell 2
   DelayBeforeTransition: 0
   TriggerFade: 0
   FaderID: 0
