@@ -1463,6 +1463,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1cee780f8886c46df86ff46258d39e5e, type: 3}
+      propertyPath: portalController
+      value: 
+      objectReference: {fileID: 466581259}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1470,7 +1474,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 1cee780f8886c46df86ff46258d39e5e,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1350178902}
+      addedObject: {fileID: 1350178908}
   m_SourcePrefab: {fileID: 100100000, guid: 1cee780f8886c46df86ff46258d39e5e, type: 3}
 --- !u!4 &282739991 stripped
 Transform:
@@ -9365,6 +9369,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1cee780f8886c46df86ff46258d39e5e, type: 3}
+      propertyPath: portalController
+      value: 
+      objectReference: {fileID: 466581259}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9372,7 +9380,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 1cee780f8886c46df86ff46258d39e5e,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1058078647}
+      addedObject: {fileID: 1058078653}
   m_SourcePrefab: {fileID: 100100000, guid: 1cee780f8886c46df86ff46258d39e5e, type: 3}
 --- !u!4 &1058078640 stripped
 Transform:
@@ -9380,7 +9388,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1058078639}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1058078647
+--- !u!114 &1058078653
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10409,7 +10417,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 282739990}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1350178902
+--- !u!114 &1350178908
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11867,11 +11875,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1cee780f8886c46df86ff46258d39e5e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -41.611107
+      value: -56.03
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1cee780f8886c46df86ff46258d39e5e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.334904
+      value: -0.3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1cee780f8886c46df86ff46258d39e5e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11893,6 +11901,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1cee780f8886c46df86ff46258d39e5e, type: 3}
+      propertyPath: portalController
+      value: 
+      objectReference: {fileID: 466581259}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11900,7 +11912,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 1cee780f8886c46df86ff46258d39e5e,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1829419012}
+      addedObject: {fileID: 1829419018}
   m_SourcePrefab: {fileID: 100100000, guid: 1cee780f8886c46df86ff46258d39e5e, type: 3}
 --- !u!4 &1829419005 stripped
 Transform:
@@ -11908,7 +11920,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1829419004}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1829419012
+--- !u!114 &1829419018
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

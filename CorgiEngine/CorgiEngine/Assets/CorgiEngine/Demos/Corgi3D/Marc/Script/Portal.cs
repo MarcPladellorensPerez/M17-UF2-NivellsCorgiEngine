@@ -5,16 +5,25 @@ using UnityEngine;
 public class PortalController : MonoBehaviour
 {
     public GameObject portal;
+    private int monedasRecogidas = 0;
+    private int totalMonedas = 3; // Cambiar al número deseado de monedas para activar el portal
 
-    void Update()
+    public void AddCoin()
     {
-        if (Moneda.monedasRecogidas >= 3) // Cambiar 3 al número deseado de monedas para activar el portal
+        monedasRecogidas++;
+        CheckMonedasRecogidas();
+    }
+
+    void CheckMonedasRecogidas()
+    {
+        if (monedasRecogidas >= totalMonedas)
         {
             portal.SetActive(true);
         }
-        else
-        {
-            portal.SetActive(false);
-        }
+    }
+
+    void Start()
+    {
+        portal.SetActive(false); // Ocultar el portal al inicio
     }
 }

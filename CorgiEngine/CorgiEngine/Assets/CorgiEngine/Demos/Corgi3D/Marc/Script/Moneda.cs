@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class Moneda : MonoBehaviour
 {
-    public static int monedasRecogidas = 0;
-
-    void OnTriggerEnter(Collider other)
+    // Start is called before the first frame update
+    void Start()
     {
-        if (other.CompareTag("Player") && gameObject.CompareTag("Coin"))
-        {
-            monedasRecogidas++;
-        }
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
     }
 }
