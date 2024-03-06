@@ -6,7 +6,7 @@ public class PortalController : MonoBehaviour
 {
     public GameObject portal;
     private int monedasRecogidas = 0;
-    private int totalMonedas = 3; // Cambiar al número deseado de monedas para activar el portal
+    private int totalMonedas = 6; // Cambiar al número deseado de monedas para activar el portal
 
     public void AddCoin()
     {
